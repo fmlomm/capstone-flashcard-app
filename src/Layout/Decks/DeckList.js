@@ -50,7 +50,7 @@ function ListDecks({ decks }) {
                                             </div>
                                            <div className="col-2">
                                                 <button value={deck.id} className="btn btn-danger" onClick={handleDelete}>
-                                                <i className="bi bi-trash"></i>
+                                                <i className="bi bi-trash">Delete</i>
                                                 </button>
                                                 </div>
                                         </div>
